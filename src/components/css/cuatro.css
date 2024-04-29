@@ -1,0 +1,138 @@
+.main-container1B2 {
+  display: flex;
+  justify-content:space-around; /* Ajustado para manejar la separación */
+  align-items: flex-start; /* Alinea los elementos al inicio */
+  height: auto;
+  font-family: 'Open Sans', sans-serif;
+  position: relative; /* Para la línea divisoria */
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+.main-container1B2::before {
+  content: "";
+  position: absolute;
+  margin-top: 50px;
+  height: 80%; /* Altura completa para la línea divisoria */
+  width: .5px; /* Ancho de la línea */
+  background-color: #8a8a8a; /* Color de la línea */
+  left: 50%; /* Posición exactamente en el medio */
+  transform: translateX(-50%);
+}
+
+.quantity-wrapper4F5 > :nth-child(2) {
+  
+  margin-bottom: 50px;
+ max-width: 460px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ .form-wrapper6G7 > :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  width: 300px;
+  padding: 50px;
+  /*border: 1px solid red;*/
+  margin-bottom: 50px;
+}
+
+.label-a8B3c,
+.label-d4E5f,
+.label-g6H7i,
+.label-j8K9l {
+  display: flex;
+  justify-content:flex-start;
+  width: 300px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-m2N4o,
+.input-p5Q7r,
+.input-s8T0v,
+.input-w2X4z {
+  
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-next5Y6U {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff7300;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-next5Y6U:hover {
+  background-color: #00b39b;
+}
+
+
+.alineacion4{
+  display: flex;
+  flex-direction: column;
+}
+ .ultima4{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ padding: 10px;
+  line-height:2;
+ }
+
+ .totalpay{
+  font-weight: bold;
+  font-size: 20px;
+ }
+
+ .allprices{
+  color: rgb(0, 68, 255)
+ }
+
+ @media (max-width: 768px) {
+  .main-container1B2 {
+    
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+
+  .main-container1B2::before {
+    display: none;
+    
+  }
+
+  .quantity-wrapper4F5 {
+  
+    margin-top:50px;
+  }
+
+  .quantity-wrapper4F5 > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+
+
+  

@@ -1,0 +1,48 @@
+.producto3{
+    display: inline-block;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  
+  
+
+  .precio3{
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+
+  .total3{
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+  .nombre3{
+    padding: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .descripcion3 {
+    color: #666;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .imagenProducto3 {
+    padding: 2px;
+    max-width: 100px; /* Cambia 200px por el valor que prefieras */
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 0px;
+    
+  }
+  

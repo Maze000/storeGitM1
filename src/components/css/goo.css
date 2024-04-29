@@ -1,0 +1,18 @@
+.google-login-button {
+    background-color: #DB4437; /* Rojo Google */
+    color: white; /* Texto en color blanco para un contraste óptimo */
+    padding: 10px 20px; /* Espaciado interno para aumentar el tamaño del botón */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Bordes redondeados para un aspecto moderno */
+    font-size: 16px; /* Tamaño de la fuente legible */
+    cursor: pointer; /* Cursor en forma de mano para indicar que es clickeable */
+    transition: background-color 0.3s; /* Suaviza el cambio de color al pasar el mouse */
+    font-weight: 500; /* Peso de la fuente para mejor legibilidad */
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .google-login-button:hover {
+    background-color: #C1351D; /* Un tono ligeramente más oscuro al pasar el mouse */
+  }
+  

@@ -1,0 +1,112 @@
+/* Estilos generales */
+.body-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  font-family: 'Open Sans', sans-serif;
+  min-height: calc(85vh - 150px);
+  margin-top: 200px;
+  
+  
+}
+
+.h1a {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.form-signup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input-signup {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-placeholder-signup::placeholder {
+  color: #aaa;
+}
+
+.button-signup, .button-signup2 {
+  width: 260px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-signup {
+  background-color: #4a67ff;
+}
+
+.button-signup:hover {
+  background-color: #3658d4;
+}
+
+.button-signup2 {
+  background-color: #1fa858;
+}
+
+.button-signup2:hover {
+  background-color: #296b44;
+}
+
+/* Estilos para los componentes Face y Goo */
+.face, .goo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.face {
+  background-color: #3b5998; /* Color de Facebook */
+}
+
+.face:hover {
+  opacity: 0.8;
+}
+
+.goo {
+  background-color: #db4437; /* Color de Google */
+}
+
+.goo:hover {
+  opacity: 0.8;
+}
+
+
+.horizontal-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130px; /* Establece la altura de la línea */
+  
+  width: 310px; /* Hace que la línea se extienda a lo ancho del contenedor */
+  margin: 20px 0; /* Añade algo de espacio vertical antes y después de la línea */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}

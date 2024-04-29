@@ -1,0 +1,136 @@
+/* Estilos Generales del Contenedor */
+.container3a3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  min-height: calc(85vh - 200px);
+  margin-top: 100px;
+  margin-bottom:100px;
+}
+
+.shadow1{
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos de las Tarjetas de Productos */
+.card {
+  display: flex;
+  flex-direction: row; /* Cambiar a column si prefieres apilar la imagen sobre el texto */
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  /*width: 80%;  Ajustar según preferencia */
+  min-width: 250px;
+  align-items: center;
+}
+
+.product-info3a3 {
+  display: flex;
+  justify-content:space-around; /* Separa las dos columnas: una al inicio, otra al final */
+  width: 100%; /* Ajusta según necesidades */
+}
+
+.product-info3a3 p {
+  margin: 5px 0;
+  color: #333; /* Color del texto */
+}
+
+.product-info3a3 img {
+  width: 100px; /* Ajusta según la necesidad */
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px; /* Opcional: para bordes redondeados en las imágenes */
+}
+
+.buttona1 {
+  
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.buttona1:hover {
+  background-color: #0056b3;
+}
+
+.buttona21 {
+  
+  background-color: #ff7011;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+
+.buttona21:hover {
+  background-color: #33b300;
+}
+
+/* Estilos para Envío y Total de Productos */
+.container3a3 > p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.centrar{
+  display: flex;
+  align-items: center;
+  height: auto;
+  font-weight: bold;
+}
+.box31a{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 180px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+
+}
+
+.total1a3{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label21z{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.input21z{
+ margin-left: 10px;
+ margin-right: 10px;
+ border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+.label21z{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+}

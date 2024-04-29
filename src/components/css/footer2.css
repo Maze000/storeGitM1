@@ -1,0 +1,61 @@
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(223, 223, 223);
+}
+
+
+
+  
+
+  
+ 
+  
+  
+  .footer-payment6g7h1, .credit-card-icons7h8i1, .footer-copyright8i9j1 {
+    align-self: center;
+  }
+  
+  .credit-card-icons7h8i1 i {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+  }
+
+  .footer-copyright8i9j1 {
+     margin-bottom: 0px;
+     
+  }
+  
+  
+  
+  .credit-card-icons7h8i1 i{
+    margin-left: 10px;
+    
+  }
+
+  .fa11{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+
+
+
+
+  @media (max-width: 768px) {
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(223, 223, 223);
+    }
+
+  
+}

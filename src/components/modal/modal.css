@@ -1,0 +1,181 @@
+.modal2a{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: all 0.3s;
+}
+
+/* Estilos para el modal */
+.modal-content2a {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 300px;
+    position: fixed; /* Cambiado de absolute a fixed */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Centra el modal exactamente en el medio */
+    z-index: 10; /* Asegúrate de que esto sea más alto que el z-index de otros elementos */
+    
+  }
+  
+  
+  /* Estilos para el título del modal */
+  .modalTitle {
+    margin-top: 0;
+  }
+  
+  /* Estilos para el enlace dentro del modal */
+  .modal-linkm1a {
+    
+    
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  .modal-linkm1a:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+    
+  }
+ 
+  
+  /*-----------------------------0--------*/
+
+  /* Estilos para el contenedor general que lo posicionan a la derecha y le dan un diseño elegante */
+.info-container {
+  
+  padding: 60px;
+  min-width: 250px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  /* position: absolute;*/
+  
+}
+
+/* Estilos para los párrafos para mantener la uniformidad */
+.info-container p {
+  
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Estilos para el contenedor de botones para darles una disposición horizontal y espacio */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Estilos para los botones para hacerlos más elegantes */
+.info-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info-container button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.btn1m{
+  background-color: #24967d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  height: auto;
+  font-size: 18px;
+}
+
+.btn1m:hover {
+  background-color: #0056b3;
+}
+
+
+  
+.split{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.option {
+  
+
+  width: 150px;
+}
+
+.imgOption{
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 6px;
+}
+
+.columna{
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    
+    margin-bottom: 100px;
+    
+  }
+  .modal-content2a {
+   
+    width: 350px;
+    height: 300px;
+    
+    
+  }
+
+  .columna{
+    margin-left: 20px;
+    
+  }
+
+  .btn1m{
+  
+    font-size: 12px;
+  }
+
+  .modal-linkm1a {
+    
+    
+    font-size: 12px;
+    
+  }
+}

@@ -1,0 +1,52 @@
+/* Envuelve tu galería en un nuevo contenedor en tu componente React, y asigna una clase a ese contenedor */
+.outerContainer {
+    display: flex;
+    justify-content: left; /* Esto centra el contenedor de la galería */
+    width: 100%; /* Asume todo el ancho posible para centrar correctamente */
+    margin-left: 500px;
+  }
+  
+  .galleryContainer {
+    display: flex; /* Usa flexbox para alinear hijos horizontalmente */
+    align-items: center; /* Alinea hijos verticalmente al centro */
+    justify-content: flex-start; /* Alinea los hijos al inicio (lado izquierdo) del contenedor */
+    gap: 20px; /* Espaciado entre elementos */
+    padding: 20px;
+  }
+  
+  .galleryImageContainer {
+    border: 1px solid #ccc; /* Borde sutil */
+    transition: transform 0.2s ease; /* Transición suave al cambiar el tamaño */
+  }
+  
+  .galleryImageContainer:hover {
+    transform: scale(1.5); /* Efecto de zoom al pasar el ratón */
+  }
+  
+  .galleryImage {
+    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
+    width: auto; /* Permite que la imagen mantenga su aspecto natural */
+    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  .navButton {
+    cursor: pointer; /* Indica que es clickeable */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Quita el borde por defecto */
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-size: 16px; /* Tamaño del texto */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.2s; /* Suaviza el cambio de color */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2); /* Añade sombra al botón */
+  }
+  
+  .navButton:hover {
+    background-color: #555; /* Cambia el color al pasar el ratón */
+  }
+  
+  
+
+  
+  

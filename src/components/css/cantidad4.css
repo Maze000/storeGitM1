@@ -1,0 +1,45 @@
+.producto {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    height: 250;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .nombre, .precio, .total {
+    font-weight: bold;
+  }
+
+  .precio{
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+
+  .total{
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .nombre{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .descripcion {
+    color: #666;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .imagenProducto {
+    max-width: 50px; /* Cambia 200px por el valor que prefieras */
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 0px;
+    
+  }

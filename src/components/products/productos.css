@@ -1,0 +1,66 @@
+/* Estilos generales para la vitrina */
+.vitrina-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/* Estilos para cada producto individual */
+.producton7 {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px; /* Ajusta este valor según prefieras */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.producton7:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.producton7 h2 {
+  margin: 0;
+  padding: 16px;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 20px;
+}
+
+.producton7 p {
+  padding: 0 16px 16px;
+  margin: 0;
+  color: #666;
+}
+
+.producton7 p.precio {
+  color: #333;
+  font-weight: bold;
+}
+
+.producton7 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.producton7 button {
+  display: block;
+  width: calc(100% - 32px); /* Ajusta al padding del contenedor */
+  margin: 0 auto 16px;
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.producton7 button:hover {
+  background-color: #004494;
+}

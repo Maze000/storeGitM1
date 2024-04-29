@@ -1,0 +1,73 @@
+[
+  {
+    "id": 0,
+    "nombre": "MazeKey",
+    "precio": 4.99,
+    "descripcion": "Illuminated maze design",
+    "imageURL": ["/img/1.png","/img/2.png","/img/3.png"]
+  },
+  {
+    "id": 1,
+    "nombre": "PathFinder",
+    "precio": 3.99,
+    "descripcion": "Path-inspired layout",
+    "imageURL": ["/img/4.png","/img/5.png","/img/6.png"]
+  },
+  {
+    "id": 2,
+    "nombre": "LabyrinthBoard",
+    "precio": 2.99,
+    "descripcion": "Compact and ergonomic",
+    "imageURL": ["/img/7.png","/img/8.png","/img/9.png"]
+  },
+  {
+    "id": 3,
+    "nombre": "PuzzleKey",
+    "precio": 1.99,
+    "descripcion": "Minimalist style",
+    "imageURL": ["/img/10.png","/img/11.png","/img/12.png"]
+  },
+  {
+    "id": 4,
+    "nombre": "RiddleType",
+    "precio": 4.50,
+    "descripcion": "Puzzle-inspired",
+    "imageURL": ["/img/13.png","/img/14.png","/img/15.png"]
+  },
+  {
+    "id": 5,
+    "nombre": "EnigmaKey",
+    "precio": 2.50,
+    "descripcion": "Unique labyrinth design",
+    "imageURL": ["/img/16.png","/img/17.png","/img/18.png"]
+  },
+  {
+    "id": 6,
+    "nombre": "QuestBoard",
+    "precio": 3.75,
+    "descripcion": "Intuitive keyboard",
+    "imageURL": ["/img/19.png","/img/20.png","/img/21.png"]
+  },
+  {
+    "id": 7,
+    "nombre": "MysticType",
+    "precio": 4.25,
+    "descripcion": "Soft touch, durable",
+    "imageURL": ["/img/22.png","/img/23.png","/img/24.png"]
+  },
+  {
+    "id": 8,
+    "nombre": "CipherPad",
+    "precio": 1.99,
+    "descripcion": "Compact design",
+    "imageURL": ["/img/25.png","/img/26.png","/img/27.png"]
+  },
+  {
+    "id": 9,
+    "nombre": "SecretKey",
+    "precio": 4.99,
+    "descripcion": "Innovative and creative",
+    "imageURL": ["/img/28.png","/img/29.png","/img/30.png"]
+  }
+]
+

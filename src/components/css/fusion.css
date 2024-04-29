@@ -1,0 +1,154 @@
+/* CSS para el contenedor padre que envuelve la galería y la info */
+.parentContainer1g {
+    display: flex;
+    justify-content:center; /* Centra la galería y la info horizontalmente */
+    align-items: center; /* Alinea los contenidos al inicio verticalmente */
+   /* padding: 20px;  Agrega algo de espacio alrededor */
+    /*flex-wrap: wrap;  Permite que los elementos se ajusten según el espacio disponible */
+   /* margin-right: 600px;  Ajustado para centrar el contenido correctamente */
+   margin-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+    min-height: calc(85vh - 200px);
+    margin-top: 100px;
+}
+
+.outerContainer1 {
+    text-align: center; /* Centra el texto y elementos inline o inline-block dentro */
+    padding: 20px; /* Agrega algo de espacio alrededor, ajustable según necesidad */
+}
+
+.galleryContainer1 {
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra los elementos de la galería horizontalmente */
+    gap: 20px;
+    min-width: 400px; /* Ancho mínimo para evitar que se reduzca demasiado */
+}
+
+.galleryImageContainer1 {
+    border: 1px solid #ccc;
+    transition: transform 0.2s ease;
+}
+
+.galleryImageContainer1:hover {
+    transform: scale(1.05);
+}
+
+.galleryImage1 {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.navButton1g {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: background-color 0.2s;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.navButton1g:hover {
+    background-color: #555;
+}
+
+.info-containera1x {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido de info-container */
+    padding: 20px;
+    max-width: 300px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin-top: 100px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+/* Estilos para botones e información dentro del .info-container */
+.info-containera1x p
+ {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+.info-containera1x button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.info-containera1x button:hover {
+    background-color: #0056b3;
+}
+
+.info-containera1x button:active {
+    background-color: #004495;
+    transform: scale(1);
+}
+
+.info-containera1x button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0,123,255,0.5);
+}
+
+@media (max-width: 768px) {
+    .parentContainer1g {
+        flex-direction: column; /* Cambia la dirección de los flex-items a vertical */
+        justify-content: center; /* Centra los elementos verticalmente */
+        align-items: center; /* Centra los elementos horizontalmente */
+        margin: 0; /* Elimina el margen específico para centrar el contenedor */
+        padding: 10px; /* Reduce el padding si es necesario */
+    }
+
+    .galleryContainer1g {
+        width: 100%; /* Aprovecha todo el ancho disponible */
+        min-width: 0; /* Elimina el ancho mínimo para evitar problemas de desbordamiento */
+        justify-content: center; /* Asegura que los elementos dentro se centren */
+    }
+
+    .info-containera1x {
+        
+        margin-top: 20px; /* Asegura un espaciamiento entre la galería y el contenedor de info */
+        width: calc(100% - 40px); /* Ajusta el ancho para considerar el padding */
+        max-width: 300px; /* Mantiene un ancho máximo para el contenedor de información */
+        margin-left: -170px;
+        
+    }
+
+   
+    .outerContainer1 {
+        margin-top: 100px;
+    }
+    
+}
+
+
+
+
+
+
+  

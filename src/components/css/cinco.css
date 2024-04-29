@@ -1,0 +1,296 @@
+.contenedora4 {
+  display: flex;
+  
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  
+/*  width: 100%;si especifico esto en pixeles y no en porcentaje  se mantiene una estructura fija, la idea
+  es que se adapte a medida que va cambiando la ventana del navegador*/
+  
+  
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*el espacio que queda en la parte superior de las letras coresponde a la tipografia*/
+  font-family: 'Open Sans', sans-serif;
+  }
+
+
+ 
+    
+
+  
+
+
+  .seccion-izquierda2 > :nth-child(2) {
+     
+    
+    
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 325px;
+    margin-top: 20px;
+   /* height: auto;*/
+   
+  }
+  .ordenFinal{
+    margin-top: 70px;
+  }
+  .backgroundP{
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .direccion-entrega {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Ajusta el espacio según necesites */
+    margin-top: 50px;
+    font-weight:lighter;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    
+  }
+  .delivery{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .precioFinal{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 10px;
+    line-height:2;
+    
+  }
+  .totalpay{
+    font-weight: bold;
+    font-size: 20px;
+   }
+  
+   .allprices{
+    color: rgb(0, 68, 255)
+   }
+  .envio,
+  .total-productos {
+    margin-top: 10px; /* Ajusta el espacio según necesites */
+    /* No se requieren cambios adicionales aquí */
+    
+      font-weight: bold;
+    
+  }
+  
+  .seccion-derecha {
+    margin-top: 20px;
+    /*border: 2px solid rgb(0, 255, 64);*/
+    
+    width: 600px;
+    height: auto;
+    /* float: left;no es necesario floar left porque el padre
+    de #tres usa display: flex*/
+   
+
+    display: flex;
+    flex-direction: column;
+    /*display: flex;
+        flex-direction: row;  Alinea los elementos hijos en una columna */
+       /* align-items: center;  Centra verticalmente */ /* Centra horizontalmente 
+        justify-content: center;*/
+  }
+
+  .nameCard{
+    min-width: 255px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #afafaf;
+    outline: 1px solid #ffffff;
+    
+  }
+  .nameCard::placeholder {
+   
+    color: #a2a9da;      /* Cambia el color del texto del placeholder */
+  font-size: 18px;
+  padding-left: 12px;
+    
+  }
+  .linea {
+    width: 1px; /* Grosor de la línea */
+    height: 600px; /* Altura de la línea */
+    background-color: #c0c0c0; /* Color de la línea */
+    display: inline-block;
+    
+    margin-top: 100px;
+  }
+  .btsa1 {
+    background-color: #ff7c12; /* Un azul suave pero atractivo */
+    color: white; /* Texto blanco para contraste */
+    font-size: 16px; /* Un tamaño de fuente legible */
+    font-weight: 600; /* Hacer el texto un poco más grueso para destacar */
+    border: none; /* No queremos bordes */
+    border-radius: 4px; /* Bordes redondeados para un look moderno */
+    padding: 12px 24px; /* Padding generoso para un tacto agradable */
+    cursor: pointer; /* Cambiar el cursor para indicar clickeabilidad */
+    transition: background-color 0.3s, transform 0.2s; /* Suave transición para efectos */
+    outline: none; /* Quitar el outline al hacer focus para no distraer */
+    width: 100%;
+  }
+  
+  .btsa1:hover {
+    background-color: #23c574; /* Un azul ligeramente más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Un ligero efecto de "levitación" */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
+  }
+  
+  .btsa1:active {
+    background-color: #3a4b8f; /* Un azul aún más oscuro al hacer clic */
+    transform: translateY(1px); /* Neutralizar el efecto de "levitación" */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pegada al botón */
+  }
+  
+  .btsa1:disabled {
+    background-color: #a0a0a0; /* Gris para indicar desactivado */
+    cursor: not-allowed; /* Cursor de no permitido */
+    box-shadow: none; /* Sin sombra */
+    color: #666; /* Texto gris para indicar que está deshabilitado */
+  }
+
+/*-----------------------0--------------*/
+
+.stripe-form {
+ /* max-width: 500px;*/
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 10px;
+  color: #32325d;
+}
+
+.StripeElement {
+  background-color: white;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 0 0 0.2rem rgba(50, 50, 93, 0.25);
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.buttonS {
+  background-color: #32325d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.buttonS:disabled {
+  background-color: #ccc;
+}
+
+
+/*tarjetas*/
+
+
+.credit-card-icons i {
+  font-size: 24px; /* Ajusta el tamaño según necesites */
+  margin-right: 10px; /* Espaciado entre iconos */
+}
+
+.fa-cc-visa {
+  color: #979797; /* Azul Visa */
+}
+
+.fa-cc-mastercard {
+  color: #979797; /* Rojo MasterCard */
+}
+
+.fa-cc-discover {
+  color: #979797; /* Naranja Discover */
+}
+
+.fa-cc-jcb {
+  color: #979797; /* Azul JCB */
+}
+
+.fa-cc-diners-club {
+  color: #979797; /* Azul Diners Club */
+}
+
+
+.cvc-input-icon-wrapper {
+  position: relative;
+}
+
+.cvc-icon {
+  color: #979797; /* Azul Diners Club */
+  position: absolute;
+  right: 10px; /* Ajusta la posición horizontal según sea necesario */
+  top: 50%; /* Centrar verticalmente */
+  transform: translateY(-50%); /* Ajuste fino para centrar verticalmente */
+  font-size: 16px; /* Ajusta el tamaño del ícono según sea necesario */
+}
+
+/* Puedes necesitar ajustar el padding del CardCvcElement para evitar que el texto se solape con el ícono */
+.CardCvcElement {
+  padding-right: 30px; /* Asegúrate de dejar suficiente espacio para el ícono */
+}
+.legalTerm{
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .contenedora4 {
+    display: flex;
+    
+   flex-direction: column;
+   align-items: center;
+    }
+    .linea {
+      display: none;
+    }
+    .backgroundP{
+      
+      
+      
+      margin-bottom: 0;
+    }
+
+    .seccion-derecha {
+     
+      
+      width: 350px;
+      
+    }
+}
