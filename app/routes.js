@@ -20,7 +20,7 @@ module.exports = (app, passport) => {
 			payment_method: paymentMethodId,
 			confirm: true,
 			confirmation_method: 'automatic',
-			return_url: 'https://mongooseupdategit-production.up.railway.app//form-6',
+			return_url: 'https://storegitm1-production.up.railway.app/form-6',
 		}, function (error, paymentIntent) {
 			if (error) {
 				console.error("Error:", error);
@@ -255,7 +255,7 @@ module.exports = (app, passport) => {
 
     // Cambia aquí para usar Promesas
     user.save().then(() => {
-      const verificationUrl = `http://localhost:3000/verify1?token=${verificationToken}`;
+      const verificationUrl = `https://storegitm1-production.up.railway.app/verify1?token=${verificationToken}`;
 
       return transporter2.sendMail({
         from: 'infimo000@gmail.com',
