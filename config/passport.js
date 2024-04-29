@@ -28,54 +28,54 @@ module.exports = function (passport) {
 });
 
   
-//   passport.use(new FacebookStrategy({
-//     clientID: facebookClientID,
-//     clientSecret: facebookClientSecret,
-//     callbackURL: "https://prodgit3-production.up.railway.app/auth/facebook/callback",
-//     profileFields: ['id', 'displayName', 'photos', 'emails']
-//   },
-//   function(accessToken, refreshToken, profile, done) {
-//     User.findOne({ 'facebook.id': profile.id }).then(user => {
-//       if (user) {
-//         return done(null, user);
-//       } else {
-//         var newUser = new User();
-//         newUser.facebook.id = profile.id;
-//         newUser.facebook.email = profile.emails ? profile.emails[0].value : undefined;
-//         newUser.facebook.name = profile.displayName;
+  passport.use(new FacebookStrategy({
+   clientID: facebookClientID,
+   clientSecret: facebookClientSecret,
+  callbackURL: "https://storegitm1-production.up.railway.app/auth/facebook/callback",
+    profileFields: ['id', 'displayName', 'photos', 'emails']
+ },
+  function(accessToken, refreshToken, profile, done) {
+     User.findOne({ 'facebook.id': profile.id }).then(user => {
+      if (user) {
+        return done(null, user);
+      } else {
+        var newUser = new User();
+       newUser.facebook.id = profile.id;
+       newUser.facebook.email = profile.emails ? profile.emails[0].value : undefined;
+      newUser.facebook.name = profile.displayName;
 
-//         return newUser.save();
-//       }
-//     })
-//     .then(user => done(null, user))
-//     .catch(err => done(err));
-//   }
-// ));
+       return newUser.save();
+    }
+   })
+    .then(user => done(null, user))
+   .catch(err => done(err));
+  }
+));
 
 
-//   passport.use(new GoogleStrategy({
-//     clientID: googleClientID,
-//     clientSecret: googleClientSecret,
-//     callbackURL: "https://prodgit3-production.up.railway.app/auth/google/callback"
-//   },
-//   function(accessToken, refreshToken, profile, done) {
-//     console.log('passportGoogle');
-//     User.findOne({ 'google.id': profile.id }).then(user => {
-//       if (user) {
-//         return done(null, user);
-//       } else {
-//         let newUser = new User();
-//         newUser.google.id = profile.id;
-//         newUser.google.email = profile.emails ? profile.emails[0].value : undefined;
-//         newUser.google.name = profile.displayName;
+  passport.use(new GoogleStrategy({
+    clientID: googleClientID,
+   clientSecret: googleClientSecret,
+   callbackURL: "https://storegitm1-production.up.railway.app/auth/google/callback"
+  },
+ function(accessToken, refreshToken, profile, done) {
+     console.log('passportGoogle');
+   User.findOne({ 'google.id': profile.id }).then(user => {
+     if (user) {
+       return done(null, user);
+      } else {
+       let newUser = new User();
+        newUser.google.id = profile.id;
+        newUser.google.email = profile.emails ? profile.emails[0].value : undefined;
+       newUser.google.name = profile.displayName;
 
-//         return newUser.save();
-//       }
-//     })
-//     .then(user => done(null, user))
-//     .catch(err => done(err));
-//   }
-// ));
+        return newUser.save();
+      }
+    })
+    .then(user => done(null, user))
+    .catch(err => done(err));
+ }
+));
 
 
   passport.use('local-signup', new LocalStrategy({
