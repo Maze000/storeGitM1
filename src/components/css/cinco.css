@@ -5,15 +5,14 @@
   align-items: flex-start;
 
   
-/*  width: 100%;si especifico esto en pixeles y no en porcentaje  se mantiene una estructura fija, la idea
-  es que se adapte a medida que va cambiando la ventana del navegador*/
+
   
   
   
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*el espacio que queda en la parte superior de las letras coresponde a la tipografia*/
+ 
   font-family: 'Open Sans', sans-serif;
   }
 
@@ -32,7 +31,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 325px;
     margin-top: 20px;
-   /* height: auto;*/
+   
    
   }
   .ordenFinal{
@@ -47,7 +46,7 @@
   .direccion-entrega {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px; /* Ajusta el espacio según necesites */
+    margin-bottom: 10px; 
     margin-top: 50px;
     font-weight:lighter;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -81,8 +80,7 @@
    }
   .envio,
   .total-productos {
-    margin-top: 10px; /* Ajusta el espacio según necesites */
-    /* No se requieren cambios adicionales aquí */
+    margin-top: 10px; 
     
       font-weight: bold;
     
@@ -90,20 +88,16 @@
   
   .seccion-derecha {
     margin-top: 20px;
-    /*border: 2px solid rgb(0, 255, 64);*/
+    
     
     width: 600px;
     height: auto;
-    /* float: left;no es necesario floar left porque el padre
-    de #tres usa display: flex*/
+   
    
 
     display: flex;
     flex-direction: column;
-    /*display: flex;
-        flex-direction: row;  Alinea los elementos hijos en una columna */
-       /* align-items: center;  Centra verticalmente */ /* Centra horizontalmente 
-        justify-content: center;*/
+    
   }
 
   .nameCard{
@@ -116,56 +110,56 @@
   }
   .nameCard::placeholder {
    
-    color: #a2a9da;      /* Cambia el color del texto del placeholder */
+    color: #a2a9da;     
   font-size: 18px;
   padding-left: 12px;
     
   }
   .linea {
-    width: 1px; /* Grosor de la línea */
-    height: 600px; /* Altura de la línea */
-    background-color: #c0c0c0; /* Color de la línea */
+    width: 1px; 
+    height: 600px; 
+    background-color: #c0c0c0; 
     display: inline-block;
     
     margin-top: 100px;
   }
   .btsa1 {
-    background-color: #ff7c12; /* Un azul suave pero atractivo */
-    color: white; /* Texto blanco para contraste */
-    font-size: 16px; /* Un tamaño de fuente legible */
-    font-weight: 600; /* Hacer el texto un poco más grueso para destacar */
-    border: none; /* No queremos bordes */
-    border-radius: 4px; /* Bordes redondeados para un look moderno */
-    padding: 12px 24px; /* Padding generoso para un tacto agradable */
-    cursor: pointer; /* Cambiar el cursor para indicar clickeabilidad */
-    transition: background-color 0.3s, transform 0.2s; /* Suave transición para efectos */
-    outline: none; /* Quitar el outline al hacer focus para no distraer */
+    background-color: #ff7c12; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: 600; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 12px 24px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    outline: none; 
     width: 100%;
   }
   
   .btsa1:hover {
-    background-color: #23c574; /* Un azul ligeramente más oscuro al pasar el mouse */
-    transform: translateY(-2px); /* Un ligero efecto de "levitación" */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
+    background-color: #23c574; 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .btsa1:active {
-    background-color: #3a4b8f; /* Un azul aún más oscuro al hacer clic */
-    transform: translateY(1px); /* Neutralizar el efecto de "levitación" */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más pegada al botón */
+    background-color: #3a4b8f; 
+    transform: translateY(1px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   }
   
   .btsa1:disabled {
-    background-color: #a0a0a0; /* Gris para indicar desactivado */
-    cursor: not-allowed; /* Cursor de no permitido */
-    box-shadow: none; /* Sin sombra */
-    color: #666; /* Texto gris para indicar que está deshabilitado */
+    background-color: #a0a0a0; 
+    cursor: not-allowed; 
+    box-shadow: none; 
+    color: #666; 
   }
 
 /*-----------------------0--------------*/
 
 .stripe-form {
- /* max-width: 500px;*/
+
   margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -221,32 +215,32 @@
 }
 
 
-/*tarjetas*/
+
 
 
 .credit-card-icons i {
-  font-size: 24px; /* Ajusta el tamaño según necesites */
-  margin-right: 10px; /* Espaciado entre iconos */
+  font-size: 24px; 
+  margin-right: 10px;
 }
 
 .fa-cc-visa {
-  color: #979797; /* Azul Visa */
+  color: #979797; 
 }
 
 .fa-cc-mastercard {
-  color: #979797; /* Rojo MasterCard */
+  color: #979797; 
 }
 
 .fa-cc-discover {
-  color: #979797; /* Naranja Discover */
+  color: #979797;
 }
 
 .fa-cc-jcb {
-  color: #979797; /* Azul JCB */
+  color: #979797; 
 }
 
 .fa-cc-diners-club {
-  color: #979797; /* Azul Diners Club */
+  color: #979797; 
 }
 
 
@@ -255,17 +249,17 @@
 }
 
 .cvc-icon {
-  color: #979797; /* Azul Diners Club */
+  color: #979797; 
   position: absolute;
-  right: 10px; /* Ajusta la posición horizontal según sea necesario */
-  top: 50%; /* Centrar verticalmente */
-  transform: translateY(-50%); /* Ajuste fino para centrar verticalmente */
-  font-size: 16px; /* Ajusta el tamaño del ícono según sea necesario */
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 16px; 
 }
 
-/* Puedes necesitar ajustar el padding del CardCvcElement para evitar que el texto se solape con el ícono */
+
 .CardCvcElement {
-  padding-right: 30px; /* Asegúrate de dejar suficiente espacio para el ícono */
+  padding-right: 30px; 
 }
 .legalTerm{
   margin-top: 20px;
