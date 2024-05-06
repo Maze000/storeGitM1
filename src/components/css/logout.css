@@ -1,23 +1,23 @@
 .logout-button {
     padding: 10px 20px;
-    background-color: #2fd386; /* Rojo suave, pero puedes elegir cualquier color que se ajuste a tu diseño */
-    color: #ffffff; /* Texto blanco para contraste */
+    background-color: #2fd386;
+    color: #ffffff; 
     font-size: 16px;
     font-weight: bold;
     border: none;
-    border-radius: 5px; /* Bordes ligeramente redondeados para una apariencia moderna */
+    border-radius: 5px;
     cursor: pointer;
-    outline: none; /* Elimina el borde de enfoque para un look más limpio */
-    transition: background-color 0.3s, transform 0.2s; /* Suave transición para hover y click */
+    outline: none; 
+    transition: background-color 0.3s, transform 0.2s; 
     margin-top: 4px;
   }
   
   .logout-button:hover {
-    background-color: #f44336; /* Un tono ligeramente más oscuro al pasar el mouse */
-    transform: scale(1.05); /* Ligeramente más grande al pasar el mouse */
+    background-color: #f44336;
+    transform: scale(1.05); 
   }
   
   .logout-button:active {
-    transform: scale(0.95); /* Ligeramente más pequeño al hacer click */
+    transform: scale(0.95); 
   }
   
