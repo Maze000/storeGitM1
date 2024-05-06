@@ -32,7 +32,7 @@ function Winmodal() {
 
   useEffect(() => {
 
-    setFormData(prev => ({ ...prev, sumatoria: formData.cantidadA2, precioA: precioActual }));//esto no lo estoy usando, haora si para actualzar precio actual
+    setFormData(prev => ({ ...prev, sumatoria: formData.cantidadA2, precioA: precioActual }));
   }, [precioActual]);
 
   const closeModal = () => setIsModalOpen(false);
@@ -45,7 +45,7 @@ function Winmodal() {
     }
     const nuevaCantidad = cantidadActual + 1;
     setCantidadActual(nuevaCantidad);
-    setPrecioActual(nuevaCantidad * precio1);// cambio deprecio por precio1
+    setPrecioActual(nuevaCantidad * precio1);
     setFormData(prev => ({
       ...prev, ...{ cantidadA2: formData.sumatoria + nuevaCantidad }, cantidadE: formData.cantidadE.map((item, index) =>
         index === formData.idp.indexOf(formData.idNewP) ? item + 1 : item
