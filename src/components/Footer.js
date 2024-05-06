@@ -25,7 +25,7 @@ function Footer({ urlSave }) {
         }
       })
       .then(data => {
-        // setEmail('');
+        
         console.log('mensaje entregado');
         alert(data.message);
       })
