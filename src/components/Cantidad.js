@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useMemo } from 'react';
 import FormContext from './formContext/FormContext';
 import './css/cantidad.css';
-//import { Link } from 'react-router-dom';
+
 import { useNavigate } from 'react-router-dom';
 const Cantidad = () => {
 
