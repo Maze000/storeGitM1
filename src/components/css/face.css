@@ -1,17 +1,17 @@
 .facebook-login-button {
-    background-color: #4267B2; /* Color de fondo de Facebook */
-    color: white; /* Texto blanco para contrastar con el fondo */
-    padding: 10px 20px; /* Espaciado interno para hacer el botón más grande */
-    border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 16px; /* Tamaño de la fuente */
-    cursor: pointer; /* Cambiar el cursor a pointer para indicar clickeabilidad */
-    transition: background-color 0.3s; /* Efecto de transición para el hover */
+    background-color: #4267B2;
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
     width: 300px;
     margin-top: 20px;
   }
   
   .facebook-login-button:hover {
-    background-color: #365899; /* Oscurecer el botón al pasar el mouse */
+    background-color: #365899; 
   }
   
