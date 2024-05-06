@@ -2,11 +2,11 @@
   display: inline-block;
 
 
-  padding: 10px; /* Relleno dentro del contenedor principal, puedes reducirlo si quieres cajas más pequeñas */
+  padding: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 8px; /* Bordes redondeados para el contenedor */
-  background-color: #ffffff; /* Color de fondo ligero */
-  width: 150px; /* Ajusta este valor para controlar el ancho de las cajas */
+  border-radius: 8px;
+  background-color: #ffffff; 
+  width: 150px; 
   
   margin: 30px 30px;
   font-family: 'Open Sans', sans-serif;
@@ -17,19 +17,19 @@
 .nombrea2, .precioa2, .descripciona2, .totala2, .cantidad-labela2 {
   
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 5px 0; /* Margen para separarlos entre sí */
-  padding: 5px; /* Relleno dentro de cada elemento */
-  border-radius: 4px; /* Bordes redondeados para cada elemento */
-  background-color: #fff; /* Fondo blanco para destacar cada caja */
+  margin: 5px 0;
+  padding: 5px; 
+  border-radius: 4px; 
+  background-color: #fff; 
 }
 
 .imagen-productoa2 {
  
-  max-width: 40%; /* Asegura que la imagen se ajuste al contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  margin: 5px auto; /* Centra la imagen y añade espacio arriba y abajo */
-  border: 1px solid #ddd; /* Borde alrededor de la imagen */
-  border-radius: 4px; /* Bordes redondeados para la imagen */
+  max-width: 40%; 
+  height: auto; 
+  margin: 5px auto;
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
 }
 
 .input-cantidada2 {
