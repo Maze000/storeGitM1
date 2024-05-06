@@ -1,21 +1,20 @@
 body.pagina-especifica1 {
-    background-color: #ffffff; /* Gris claro para el fondo de la página */
+    background-color: #ffffff;
     height: 100%;
     margin: 0;
   }
   
   .div-general-01 {
-    margin: 0 auto; /* Centra el div respecto al eje horizontal */
+    margin: 0 auto; 
     margin-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 50%; /* Establece un ancho fijo para todas las cajas */
-   /* max-width: 600px;  Máximo ancho para asegurar que no se vean demasiado grandes en pantallas grandes */
-    padding: 0 20px; /* Añade un poco de espacio en los lados */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho final */
+    width: 50%; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
@@ -61,25 +60,25 @@ body.pagina-especifica1 {
     padding: 10px;
     background-color: #33ca72;
     color: white;
-    border: none; /* Ajustado para quitar el borde */
+    border: none;
     cursor: pointer;
     text-align: center;
-    text-decoration: none; /* Esto ya está quitando el subrayado */
+    text-decoration: none; 
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
-    border-radius: 10px; /* Agrega bordes redondeados, ajusta según necesidad */
+    transition: background-color 0.3s ease; 
+    border-radius: 10px; 
     margin-bottom: 50px;
     width: 200px;
   }
   
   
   .boton-volver-style-09:hover, .boton-volver-hover-10:hover {
-    background-color: #2673a0; /* Cambia el color del botón al pasar el ratón */
+    background-color: #2673a0;
   }
   
-  /* Estilo adicional para secciones */
+  
   .seccion-background-11 {
     
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,8 +88,8 @@ body.pagina-especifica1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%; /* Asegura consistencia en el ancho */
-    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    width: 100%;
+    box-sizing: border-box; 
   }
   
   .texto-estilo-12 {
