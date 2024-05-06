@@ -4,11 +4,11 @@
 }
 
 
-/* Estilos base para todos los dispositivos */
+
 nav {
   background-color: #333;
   overflow: hidden;
-  box-shadow: 0 10px 10px rgba(0,0,0,0.4); /* Añade sombra al menú */
+  box-shadow: 0 10px 10px rgba(0,0,0,0.4); 
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,12 +16,12 @@ nav ul {
   list-style-type: none;
   padding: 10px;/*0000000000000000*/
   
-  /* margin:0; Se ajusta para ocupar el ancho completo */
+  
 
   display: flex;
-  justify-content: center; /* Centra los elementos para pantallas pequeñas */
+  justify-content: center; 
   align-items: center;
-  width: 100%; /* Asegura que el ul ocupe todo el ancho disponible */
+  width: 100%; 
 }
 
 nav ul li {
@@ -34,36 +34,33 @@ nav ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.3s; /* Transición suave */
+  transition: background-color 0.3s; 
 }
 
 .lh1:hover  {
-  background-color: #555; /* Cambio de color al pasar el ratón */
+  background-color: #555; 
   
 }
-/* Estilos específicos para notebooks y dispositivos de escritorio */
-
-
-/* Estilos específicos para dispositivos móviles */
 
 
 
 
-/* Agrega el estilo para hacer el nav fijo al hacer scroll */
+
+
+
+
+
 .fixed-nav {
  
   position: fixed;
   top:40px;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.2); /* Opcional: ajusta la sombra para el estado fijo */
-  /*transition: all 1s;  Transición suave al cambiar de posición */
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2); 
   margin-bottom: 100px;
 }
 
-/*modal*/
 
-/* Estilos para el contenedor principal del componente */
 .mi-componente-container {
   padding: 0px;
   margin-left: 15px;
@@ -77,7 +74,7 @@ nav ul li a {
   border-radius: 10px;
 }
 
-/* Estilos para el modal */
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -104,7 +101,7 @@ nav ul li a {
  
 }
 
-/* Botón para cerrar el modal */
+
 .close-modal-buttona1 {
   display: inline-block;
   margin-top: 20px;
@@ -140,7 +137,7 @@ nav ul li a {
 @media (max-width: 768px) {
   .menu-btn {
     display: block;
-    position: fixed; /* Fija el elemento en una ubicación constante en la pantalla */
+    position: fixed; 
   top: 0;
     text-align: left;/*000000000000000000*/
     background-color: #333;
@@ -157,8 +154,8 @@ nav ul li a {
     
     flex-direction: column;
     
-    display: none; /* Oculta inicialmente el menú en móviles */
-    justify-content: center; /* Asegura que los elementos estén centrados verticalmente */
+    display: none; 
+    justify-content: center; 
   }
   nav ul li {/*0000000000000000000000000000000000*/
     
@@ -170,7 +167,7 @@ nav ul li a {
     text-align: center;
   }
 
-  /* Cuando el menú está activo */
+ 
   nav ul.show {
     
     display: flex;
@@ -190,14 +187,12 @@ nav ul li a {
 @media (min-width: 768px) {
   nav {
     
-    --nav-horizontal-shift: 65%; /* Variable para ajustar el desplazamiento horizontal */
-   /* margin-top: 40px; /* Aumenta la distancia hacia arriba 
-    margin-bottom: 40px; /* Aumenta la distancia hacia abajo */
+    --nav-horizontal-shift: 65%; 
   }
 
   nav ul {
-    justify-content: flex-start; /* Mantiene los elementos alineados al inicio (izquierda) */
-    padding-left: var(--nav-horizontal-shift); /* Aplica el desplazamiento horizontal */
+    justify-content: flex-start; 
+    padding-left: var(--nav-horizontal-shift);
   }
 
   .menu-btn {
