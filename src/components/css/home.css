@@ -1,25 +1,25 @@
 /* Estilo CSS */
 .divaw {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Hace que el div tome toda la altura de la pantalla */
-    background-color: #f0f0f0; /* Color de fondo suave */
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
   }
   
   .h1aw {
-    font-family: 'Arial', sans-serif; /* Tipografía elegante y simple */
-    font-size: 24px; /* Tamaño de letra adecuado */
-    color: #333; /* Color de texto sofisticado */
-    text-transform: uppercase; /* Transforma el texto a mayúsculas */
-    text-align: center; /* Asegura que el texto esté centrado */
-    margin: 0; /* Remueve el margen por defecto del h1 */
-    padding: 20px; /* Espaciado interno para darle aire */
-    border: 1px solid #ddd; /* Borde sutil */
-    border-radius: 10px; /* Bordes redondeados para suavidad */
-    background-color: #fff; /* Fondo claro para el texto */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    color: #333; 
+    text-transform: uppercase; 
+    text-align: center; 
+    margin: 0; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
