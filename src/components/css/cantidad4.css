@@ -37,7 +37,7 @@
   }
   
   .imagenProducto {
-    max-width: 50px; /* Cambia 200px por el valor que prefieras */
+    max-width: 50px; 
     border-radius: 8px;
     height: auto;
     margin-bottom: 0px;
