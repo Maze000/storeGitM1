@@ -1,4 +1,4 @@
-/* Estilos Generales del Contenedor */
+
 .container3a3 {
   display: flex;
   flex-direction: column;
@@ -18,10 +18,10 @@
   border-radius: 5px;
 }
 
-/* Estilos de las Tarjetas de Productos */
+
 .card {
   display: flex;
-  flex-direction: row; /* Cambiar a column si prefieres apilar la imagen sobre el texto */
+  flex-direction: row; 
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -34,20 +34,20 @@
 
 .product-info3a3 {
   display: flex;
-  justify-content:space-around; /* Separa las dos columnas: una al inicio, otra al final */
+  justify-content:space-around; 
   width: 100%; /* Ajusta según necesidades */
 }
 
 .product-info3a3 p {
   margin: 5px 0;
-  color: #333; /* Color del texto */
+  color: #333; 
 }
 
 .product-info3a3 img {
-  width: 100px; /* Ajusta según la necesidad */
+  width: 100px; 
   height: auto;
   margin-right: 20px;
-  border-radius: 5px; /* Opcional: para bordes redondeados en las imágenes */
+  border-radius: 5px;
 }
 
 .buttona1 {
@@ -85,7 +85,7 @@
   background-color: #33b300;
 }
 
-/* Estilos para Envío y Total de Productos */
+
 .container3a3 > p {
   font-weight: bold;
   margin-top: 20px;
