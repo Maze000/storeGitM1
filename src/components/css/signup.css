@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 .body-signup {
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@
   background-color: #296b44;
 }
 
-/* Estilos para los componentes Face y Goo */
+
 .face, .goo {
   display: flex;
   justify-content: center;
@@ -83,7 +83,7 @@
 }
 
 .face {
-  background-color: #3b5998; /* Color de Facebook */
+  background-color: #3b5998; 
 }
 
 .face:hover {
@@ -91,7 +91,7 @@
 }
 
 .goo {
-  background-color: #db4437; /* Color de Google */
+  background-color: #db4437;
 }
 
 .goo:hover {
@@ -103,10 +103,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 130px; /* Establece la altura de la línea */
+  height: 130px; 
   
-  width: 310px; /* Hace que la línea se extienda a lo ancho del contenedor */
-  margin: 20px 0; /* Añade algo de espacio vertical antes y después de la línea */
+  width: 310px; 
+  margin: 20px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
