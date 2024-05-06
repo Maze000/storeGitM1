@@ -12,7 +12,7 @@
   transition: all 0.3s;
 }
 
-/* Estilos para el modal */
+
 .modal-content2a {
     background-color: #ffffff;
     padding: 20px;
@@ -20,21 +20,21 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 500px;
     height: 300px;
-    position: fixed; /* Cambiado de absolute a fixed */
+    position: fixed; 
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%); /* Centra el modal exactamente en el medio */
-    z-index: 10; /* Asegúrate de que esto sea más alto que el z-index de otros elementos */
+    transform: translate(-50%, -50%); 
+    z-index: 10; 
     
   }
   
   
-  /* Estilos para el título del modal */
+
   .modalTitle {
     margin-top: 0;
   }
   
-  /* Estilos para el enlace dentro del modal */
+  
   .modal-linkm1a {
     
     
@@ -55,9 +55,7 @@
   }
  
   
-  /*-----------------------------0--------*/
-
-  /* Estilos para el contenedor general que lo posicionan a la derecha y le dan un diseño elegante */
+  
 .info-container {
   
   padding: 60px;
@@ -67,25 +65,25 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
-  /* position: absolute;*/
+  
   
 }
 
-/* Estilos para los párrafos para mantener la uniformidad */
+
 .info-container p {
   
   margin: 5px 0;
   font-size: 16px;
 }
 
-/* Estilos para el contenedor de botones para darles una disposición horizontal y espacio */
+
 .buttons-container {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
-/* Estilos para los botones para hacerlos más elegantes */
+
 .info-container button {
   background-color: #007bff;
   color: white;
