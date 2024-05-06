@@ -1,5 +1,5 @@
 .fprincipal{
-  min-height: 100%; /* Asegura que el contenedor tenga al menos el alto de la ventana */
+  min-height: 100%;
   
 }
 
@@ -28,8 +28,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40%; /* Ocupa todo el espacio vertical disponible */
-    background-color: rgb(64, 109, 255); /* Corrección del valor de background */
+    height: 40%; 
+    background-color: rgb(64, 109, 255); 
   }
   
   .email-form3c4d {
@@ -69,12 +69,12 @@
   .social-icons8k9l {
     display: flex;
     align-items: center;
-    margin-left: 10px; /* Espacio entre el botón y los íconos */
+    margin-left: 10px; 
   }
   
   .social-icons8k9l i {
     margin: 0 5px;
-    color: white; /* Asegura que los íconos sean visibles */
+    color: white;
     cursor: pointer;
   }
   
