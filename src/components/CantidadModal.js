@@ -34,7 +34,7 @@ const Cantidad = () => {
     });
   };
 
-  const agregaEmail = () => {// revisar si esto se ejecuta en alguna parte
+  const agregaEmail = () => {
     const email = localStorage.getItem('email') || null;
     if (email != null) {
       setFormData(prev => ({ ...prev, ...{ email: email } }));
